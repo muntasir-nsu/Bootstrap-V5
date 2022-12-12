@@ -1,0 +1,17 @@
+/* Breakpoints of Bootstrap
+x small                             < 576px
+small                 sm           >= 576px
+Medium                md           >= 768px
+Large                 lg           >= 992px
+Extra Large           xl           >= 1200px
+Extra Extra Large     xxl          >= 1400px
+*/
+
+.child {
+    border: 3px solid var(--bs-yellow);
+    height: 100px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
