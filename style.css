@@ -17,12 +17,14 @@ Extra Extra Large     xxl          >= 1320px
 */
 .row {
     margin-bottom: 20px;
+    height: 200px;
+    background: #fab1a0;
 }
 
-.row div div {
-    background-color: #82ccdd;
-    border: 5px solid black;
+.row div {
+    background: #d63031;
+    border: 5px solid #fd79a8;
+    color: #fff;
     padding: 20px;
     text-align: center;
-    margin-bottom: 20px;
 }
