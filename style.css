@@ -15,16 +15,3 @@ Large                 lg           >= 960px
 Extra Large           xl           >= 1140px
 Extra Extra Large     xxl          >= 1320px
 */
-.row {
-    margin-bottom: 20px;
-    height: 200px;
-    background: #fab1a0;
-}
-
-.row div div {
-    background: #d63031;
-    border: 2px solid #fd79a8;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-}
