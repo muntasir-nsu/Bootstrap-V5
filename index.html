@@ -9,63 +9,40 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Form Example -->
-  <form action="" class="m-auto mt-5 mb-5 p-3 border border-warning w-50">
-    <div class="mb-3">
-      <label for="">Name</label>
-      <input type="text" placeholder="Enter Your Name" class="form-control form-control-lg">
+  <div class="accordion w-50 m-auto">
+    <div class="accordion-item">
+      <h2 class="accordion-button" data-bs-target="#childOne" data-bs-toggle="collapse">Accordion Heading</h2>
+      <div id="childOne" class="accordion-collapse collapse show">
+        <div class="accordion-body">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto nam error quaerat dignissimos tempora qui optio, inventore nobis non, corrupti amet mollitia perferendis aut similique aspernatur voluptas. Aut ut placeat cumque natus voluptates quas molestiae dolor possimus nesciunt doloribus ea sit nobis tenetur, rem eius vitae dolorem neque illo repudiandae corporis dicta praesentium aliquam cum in? Ipsa quas quisquam porro esse aut, reiciendis aliquam nesciunt dolorum incidunt cupiditate dolores veritatis? Blanditiis ab, fuga facere repudiandae velit dolores magni nobis odit.
+          </p>
+        </div>
+      </div>
     </div>
 
-    <div class="mb-3">
-      <label for="">Email</label>
-      <input type="email" placeholder="Enter Your Email" class="form-control">
-      <div class="form-text">We will never share your email with anyone else.</div>
+    <div class="accordion-item">
+      <h2 class="accordion-button" data-bs-target="#childTwo" data-bs-toggle="collapse">Accordion Heading</h2>
+      <div id="childTwo" class="accordion-collapse collapse show">
+        <div class="accordion-body">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto nam error quaerat dignissimos tempora qui optio, inventore nobis non, corrupti amet mollitia perferendis aut similique aspernatur voluptas. Aut ut placeat cumque natus voluptates quas molestiae dolor possimus nesciunt doloribus ea sit nobis tenetur, rem eius vitae dolorem neque illo repudiandae corporis dicta praesentium aliquam cum in? Ipsa quas quisquam porro esse aut, reiciendis aliquam nesciunt dolorum incidunt cupiditate dolores veritatis? Blanditiis ab, fuga facere repudiandae velit dolores magni nobis odit.
+          </p>
+        </div>
+      </div>
     </div>
 
-    <div class="mb-3">
-      <label for="">Textarea</label>
-      <textarea name="" id="" cols="30" rows="10" class="form-control" placeholder="Message"></textarea>
-      <div class="form-text">We will never share your email with anyone else.</div>
+    <div class="accordion-item">
+      <h2 class="accordion-button" data-bs-target="#childThree" data-bs-toggle="collapse">Accordion Heading</h2>
+      <div id="childThree" class="accordion-collapse collapse show">
+        <div class="accordion-body">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto nam error quaerat dignissimos tempora qui optio, inventore nobis non, corrupti amet mollitia perferendis aut similique aspernatur voluptas. Aut ut placeat cumque natus voluptates quas molestiae dolor possimus nesciunt doloribus ea sit nobis tenetur, rem eius vitae dolorem neque illo repudiandae corporis dicta praesentium aliquam cum in? Ipsa quas quisquam porro esse aut, reiciendis aliquam nesciunt dolorum incidunt cupiditate dolores veritatis? Blanditiis ab, fuga facere repudiandae velit dolores magni nobis odit.
+          </p>
+        </div>
+      </div>
     </div>
-
-    <button class="btn btn-warning">Submit</button>
-  </form>
-
-  <!-- login form -->
-  <form action="" class="m-auto mt-5 mb-5 p-3 border border-dark w-50">
-    <div class="mb-3">
-      <label for="">Email</label>
-      <input type="email" placeholder="Enter Your Email" class="form-control">
-    </div>
-
-    <div class="mb-3">
-      <label for="">Password</label>
-      <input type="password" placeholder="Enter Your Password" class="form-control">
-      <div class="form-text">We will never share your password with anyone else.</div>
-    </div>
-
-    <div class="mb-3">
-      <input type="checkbox" class="form-check-input" checked>
-      <label for="">Remember Me.</label>
-    </div>
-
-    <div class="mb-3 form-switch">
-      <input type="checkbox" class="form-check-input">
-      <label for="">Switch.</label>
-    </div>
-
-    <div class="mb-3 form-radio">
-      <input type="radio" class="form-radio-input">
-      <label for="">Radio Button.</label>
-    </div>
-
-    <div class="mb-3">
-      <input type="range" class="form-range" min="1" max="10">
-      <label for="">Range.</label>
-    </div>
-
-    <button class="btn btn-primary">Submit</button>
-  </form>
+  </div>
   
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/app.js"></script>
