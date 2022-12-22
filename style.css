@@ -1,17 +1,28 @@
-/* Breakpoints of Bootstrap
-x small                             < 576px
-small                 sm           >= 576px
-Medium                md           >= 768px
-Large                 lg           >= 992px
-Extra Large           xl           >= 1200px
-Extra Extra Large     xxl          >= 1400px
-*/
+html,
+body {
+    height: 100%;
+}
 
-/* Breakpoints of Bootstrap
-x small                             < 100%
-small                 sm           >= 540px
-Medium                md           >= 720px
-Large                 lg           >= 960px
-Extra Large           xl           >= 1140px
-Extra Extra Large     xxl          >= 1320px
-*/
+body {
+    background-image: url("images/Background.jpeg");
+    background-size: cover;
+}
+
+.form-login {
+    /* background-color: rgba(236, 240, 241, .35); */
+    background-color: lightsteelblue;
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+    max-width: 450px;
+    width: 100%;
+}
+
+.btn-primary {
+    background: green;
+    border: 0;
+}
+
+.btn-primary:hover {
+    background: green;
+}
